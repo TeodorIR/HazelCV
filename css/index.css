@@ -54,7 +54,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-.two-column-section p {
+.two-column-section > p {
     width: 50%;
     box-sizing: border-box;
     float: left;
@@ -75,3 +75,40 @@ h1 {
     margin: 8px 0;
 }
 
+.blog-section {
+    background-color: #fff;
+    padding: 64px 0;
+}
+
+.blog-content {
+    padding: 0 15%;
+}
+
+.two-column-section .blog-posts {
+    width: 50%;
+    float: left;
+}
+
+.blog-posts {
+    margin-top: 16px;
+}
+
+.blog-heading {
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+}
+
+.blog-text {
+    font-size: 1rem;
+}
+
+.blog-posts .blog-date {
+    font-size: 0.9rem;
+    color: grey;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.blog-posts p {
+    margin: 8px 0 4px 0;
+}
