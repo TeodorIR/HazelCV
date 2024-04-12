@@ -112,3 +112,35 @@ h1 {
 .blog-posts p {
     margin: 8px 0 4px 0;
 }
+
+.events-section {
+    width: 100%;
+    background-color: #fdf0e6;
+    padding: 64px 0;
+    display: inline-block;
+}
+
+.events-content {
+    padding: 0 15%;
+}
+
+.blog-events {
+    width: 50%;
+    float: left;
+}
+
+.event-location {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-date {
+    margin: 5px 0 20px 0;
+    font-size: 0.9rem;
+}
+
+.event-heading {
+    margin: 0;
+}
+
