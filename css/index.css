@@ -168,3 +168,48 @@ footer img {
     padding-right: 15px;
     margin-right: 0;
 }
+
+.highlight {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-content,
+    .blog-content,
+    .events-content {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .tagline {
+        font-size: 2.5rem;
+    }
+    .two-column-section > p {
+        width: 100%;
+    }
+    .two-column-section .skills {
+        width: 100%;
+    }
+    .two-column-section .blog-posts {
+        width: 100%;
+    }
+    .highlight {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .links {
+        display: none;
+    }
+    .navbar p{
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .tagline {
+        font-size: 2rem;
+    }
+}
